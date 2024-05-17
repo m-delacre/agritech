@@ -278,7 +278,7 @@ function App() {
                     </Flex>
                 </Flex>
                 <Flex
-                    className="scaleincenter"
+                    className="scaleincenter disappear"
                     w={{
                         base: "250px",
                         sm: "250px",

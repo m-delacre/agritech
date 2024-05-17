@@ -1,54 +1,60 @@
 #root {
-  width: 100%;
-  min-height: 100vh;
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-  overflow: hidden;
+    width: 100%;
+    min-height: 100vh;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow: hidden;
 }
 
-.fadeinright{
-  animation: FadeInRight 2s ease 0s 1 normal forwards;
+.fadeinright {
+    animation: FadeInRight 2s ease 0s 1 normal forwards;
 }
 
-.fadeinleft{
-  animation: FadeInLeft 2s ease 0s 1 normal forwards;
+.fadeinleft {
+    animation: FadeInLeft 2s ease 0s 1 normal forwards;
 }
 
 .scaleincenter {
-  animation: ScaleInCenter 2s ease 0s 1 normal forwards;
+    animation: ScaleInCenter 2s ease 0s 1 normal forwards;
+}
+
+@media screen and (max-height: 550px) {
+    .disappear {
+        display: none !important;
+    }
 }
 
 @keyframes FadeInRight {
-	0% {
-		opacity: 0;
-		transform: translateX(150px);
-	}
+    0% {
+        opacity: 0;
+        transform: translateX(150px);
+    }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 @keyframes FadeInLeft {
-	0% {
-		opacity: 0;
-		transform: translateX(-150px);
-	}
+    0% {
+        opacity: 0;
+        transform: translateX(-150px);
+    }
 
-	100% {
-		opacity: 1;
-		transform: translateX(0);
-	}
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
 }
 
 @keyframes ScaleInCenter {
-	0% {
-		transform: scale(0);
-	}
+    0% {
+        transform: scale(0);
+    }
 
-	100% {
-		transform: scale(1);
-	}
+    100% {
+        transform: scale(1);
+    }
 }
