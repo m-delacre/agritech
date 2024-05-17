@@ -299,8 +299,8 @@ function App() {
                     bottom={{
                         base: "100px",
                         sm: "100px",
-                        md: "20px",
-                        lg: "30px",
+                        md: "30px",
+                        lg: "150px",
                         xl: "30px",
                         "2xl": "30px",
                     }}
