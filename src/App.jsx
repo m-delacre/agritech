@@ -51,7 +51,7 @@ function App() {
                     xl: "100%",
                     "2xl": "100%",
                 }}
-                backgroundImage={`url("/field.jpg")`}
+                backgroundImage={`url("images/field.jpg")`}
                 backgroundPosition="center"
                 backgroundSize="cover"
                 borderRadius="20px"
@@ -386,7 +386,7 @@ function App() {
                                 <Image
                                     w="100%"
                                     h="100%"
-                                    src="/plant.jpeg"
+                                    src="images/plant.jpeg"
                                     objectFit="cover"
                                     borderRadius="20px"
                                 />
@@ -720,7 +720,7 @@ function App() {
                         xl: "10px",
                         "2xl": "10px",
                     }}
-                    backgroundImage={`url("/ble.jpg")`}
+                    backgroundImage={`url("images/ble.jpg")`}
                     backgroundPosition="center"
                     backgroundSize="cover"
                     borderRadius="15px"
@@ -829,7 +829,7 @@ function App() {
                         xl: "10px",
                         "2xl": "10px",
                     }}
-                    backgroundImage={`url("/drone.jpg")`}
+                    backgroundImage={`url("images/drone.jpg")`}
                     backgroundPosition="center"
                     backgroundSize="cover"
                     borderRadius="15px"
